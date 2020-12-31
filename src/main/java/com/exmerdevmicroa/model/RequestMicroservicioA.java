@@ -1,16 +1,16 @@
 package com.exmerdevmicroa.model;
 
-public class RequestMicroA {
+public class RequestMicroservicioA {
 	private String name;
 	private String lastname;
 	private String email;
 	private String pass;
 	private String phone;
-	public RequestMicroA() {
+	public RequestMicroservicioA() {
 		
 	}
 	
-	public RequestMicroA(String name, String lastname, String email, String pass, String phone) {
+	public RequestMicroservicioA(String name, String lastname, String email, String pass, String phone) {
 		super();
 		this.name = name;
 		this.lastname = lastname;
